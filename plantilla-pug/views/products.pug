@@ -1,0 +1,16 @@
+html
+    head
+        title='Listado de productos'
+        style
+            include styles.css
+    body
+        h1="Listado de productos"
+        div( class="products-container" )
+            for item in products
+                div( class="products-card" )
+                    img(class='product-img', src=item.thumbnail)
+                    p ID: #{item.id}
+                    p Producto: #{item.name}
+                    p Precio: $ #{item.price}
+        a( class="my-button" href="./index") Ir a Formulario
+p( class="footer" ) 

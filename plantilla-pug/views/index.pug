@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Formulario
+        style
+            include styles.css
+    body 
+        h1 Agregar un producto
+    form(action="/api/products", method="POST")
+        input(name="name", placeholder="Nombre del producto" required="true") 
+        input(name="price", placeholder="Precio del producto" required="true")
+        input(name="thumbnail", placeholder="URL de la imagen" required="true")
+        div( class="button-container" )
+            button( class="my-button" type="submit") Enviar
+    a( class="my-button" href="/products") ir a Productos
+    p( class="footer" ) 

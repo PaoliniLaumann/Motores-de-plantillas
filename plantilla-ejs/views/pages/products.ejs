@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../partials/head.ejs') %>
+</head>
+
+<body class="container bg-secondary mt-5 d-flex align-items-center flex-column">
+    <h2 class="text-center my-3"><%= message %></h2>
+
+    <div class="d-flex justify-content-center">
+        <% db.forEach( function(product) { %>
+        <div class="card mx-1 d-flex align-items-center" style="width: 10rem;">
+            <img src=<%= product.thumbnail %> class="card-img-top" style="width: 50%;" alt="...">
+            <div class="card-body text-center">
+                <h5 class="card-title"> <%= product.name %> </h5>
+                <p class="card-text"> $<%= product.price %> </p>
+            </div>
+        </div>
+        <% }) %>
+    </div>
+
+    <a href="/" class="text-light text-decoration-none btn btn-primary mt-2" style="width: 150px;">Ir al
+        formulario</a>
+
+    <%- include('../partials/Scripts.ejs') %>
+
+
+</body>
+
+</html>

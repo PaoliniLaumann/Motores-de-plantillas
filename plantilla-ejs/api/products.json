@@ -1,0 +1,36 @@
+[{
+    "name": "bondiola",
+    "thumbnail": "https://www.liliana.com.ar/wp-content/uploads/2016/08/liliana_receta_bondiola-sal.jpg",
+    "price": "1200",
+    "id": 1
+}, {
+    "name": "pizza",
+    "thumbnail": "../public/image3.webp",
+    "price": "1100",
+    "id": 2
+}, {
+    "name": "mila",
+    "thumbnail": "https://vinomanos.com/wp-content/uploads/2019/09/Milanesa-perfecta.jpg",
+    "price": "1000",
+    "id": 3
+}, {
+    "name": "LOMO",
+    "thumbnail": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F21%2F2017%2F03%2F19%2Flomo-de-cerdo-al-horno-2000.jpg&q=60",
+    "price": "1200",
+    "id": 4
+}, {
+    "name": "hamburguesa",
+    "thumbnail": "https://www.pequerecetas.com/wp-content/uploads/2013/07/hamburguesas-caseras-receta.jpg",
+    "price": "1100",
+    "id": 5
+}, {
+    "name": "lomo completo",
+    "thumbnail": "https://www.clarin.com/img/2021/07/26/el-lomito-uno-de-los___u-aUfp64d_640x361__1.jpg",
+    "price": "1600",
+    "id": 6
+}, {
+    "name": "Tostado",
+    "thumbnail": "https://media.diariouno.com.ar/p/92d297a8a5b04498d407c595b48982f0/adjuntos/298/imagenes/008/616/0008616976/receta-tostado-jamon-y-quesojpg.jpg",
+    "price": "1000",
+    "id": 7
+}]

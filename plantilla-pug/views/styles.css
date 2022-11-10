@@ -1,0 +1,132 @@
+
+.product-img {
+    width: 300px;
+    max-width: 300px;
+    height: 200px;
+    max-height: 200px;
+}
+
+h1 {
+    font-family: 'Lucida Console', 'Courier New', monospace;
+}
+
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    animation: fadeInUp 1s;
+}
+
+.products-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.205);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px -4px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 8px 8px 8px -4px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 8px 8px 8px -4px rgba(0, 0, 0, 0.44);
+}
+
+.product-img {
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Console', 'Courier New', monospace;
+    color: rgb(17, 14, 14);
+}
+
+
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(94, 95, 95);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(17, 16, 16);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    background-color: rgba(65, 6, 6, 0.295);
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px -4px rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow: 8px 8px 8px -4px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 8px 8px 8px -4px rgba(0, 0, 0, 0.44);
+    animation: fadeInUp 1s;
+}
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 240px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.my-button {   
+    background-color: #0b1110;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    padding: 10px 17px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(255, 0, 0, 0);
+    animation: fadeIn 1.5s;
+}
+
+.my-button:active {
+    transform: scale(0.95);
+}
+
+
